@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #293D48;
+}
+
+header {
+    background-color: transparent; /* Transparent background */
+    color: #fff;
+    text-align: left;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+header h1 {
+    display: inline;
+    font-family: "Kolker Brush", cursive;
+    font-size: 80px;
+}
+
+header nav {
+    display: inline;
+    margin-left: 100px;
+}
+
+header a {
+    opacity: 0.7;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 100px;
+}
+
+main {
+    display: flex;
+}
+
+.p {
+    margin-left: 60px;
+    font-size: 50px;
+    color: #96F3B6;
+    opacity: 0.5;
+   margin-bottom: 5px;
+}
+
+.p2 {
+    font-size: 150px;
+    color: #fff;
+    opacity: 0.9;
+    width: 20vw;
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 60px;
+
+}
+
+.p3 {
+    margin-top: 20px;
+    margin-left: 60px;
+    font-size: 50px;
+    color: #fff;
+    opacity: 0.5;
+    width: 40vw;
+}
+
+footer {
+    background-color: transparent; /* Transparent background */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.main_container {
+    text-align: left;
+    display: block;
+}
