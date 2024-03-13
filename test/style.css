@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+  
+body{
+    margin: 0px;
+    background-color: #293D48;
+}
+.jorge{
+  position: absolute;
+  border: 10px double white;
+  border-radius: 50%;
+  width: 33%;
+  top: 25%;
+  left: 56%;
+  transition: 1s ease;
+}
+
+.jorge:hover{
+  box-shadow: 0 0 70px aquamarine;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.1);
+  transition: 1s ease;
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    text-align: left;
+    font-family: "Kolker Brush", cursive;
+    font-size: 90px;
+    margin-left: 2.5%;
+    margin-top: 0;
+    margin-bottom: 0;
+    animation: glow 2s ease-in-out infinite 
+    alternate;
+  }
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 20px aquamarine;
+    }
+    to {
+      text-shadow: 0 0 30px rgb(127, 255, 195), 0 0 10px rgb(127, 255, 170);
+    }
+  }
+
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: bold;
+    margin-left: 60%;
+    margin-right: 0;
+    text-indent: 45px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    transition: font-size 0.3s ease;
+}
+.navbar a:hover{
+    font-size: 30px;
+    text-shadow: 2px 2px 8px rgba(42, 253, 116, 0.8);
+}
+.navbar li{
+    float: left;
+}
+
+.lefthome{
+    font-family: Arial;
+    margin-top: 8%;
+    margin-left: 5%;
+}
+
+.lefthome p{
+    font-size: 50px;
+    margin: 0;
+    font-weight: bolder;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 45%;
+}
+.lefthome p:hover {
+  animation: bounce 1.5s infinite;
+}
+  @keyframes bounce {
+    0% {
+      tranform: translate(0, 4px);
+    }
+    50% {
+      transform: translate(0, 8px);
+    }
+  } 
+
+.lefthome h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 100px;
+    color: aquamarine;
+    text-shadow: 2px 2px 8px #a5a8a6;
+    width: 40%;
+    animation: glow 2s ease-in-out infinite 
+    alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 20px aquamarine;
+    }
+    to {
+      text-shadow: 0 0 30px rgb(127, 255, 195), 0 0 10px rgb(127, 255, 170);
+    }
+  }
+
+  .social{
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 0;
+    transition: 1s ease;
+    animation: glow 2s ease-in-out infinite 
+  }
+  
+  .fblogo{
+    margin-right: 2%;
+  }
+
+  .fblogo:hover{
+    border-radius: 50%;
+  box-shadow: 0 0 70px aquamarine;
+  -webkit-transform: scale(2);
+  -ms-transform: scale(2);
+  transform: scale(1.3);
+  transition: 1s ease;
+}
+
+  .emaillogo{
+   margin-right: 2%;
+  }
+
+  .emaillogo:hover{
+    border-radius: 100%;
+    box-shadow: 0 0 70px aquamarine;
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+    transform: scale(1.3);
+    transition: 1s ease;
+  }
+
+  .gitlogo:hover{
+    border-radius: 100%;
+    box-shadow: 0 0 70px aquamarine;
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+    transform: scale(1.3);
+    transition: 1s ease;
+  }
+  
+
+
+
+
+
+
+
+/* -----------------------------ABOUT------------------------------- */
+
+.about {
+    font-family: Arial;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 5%;
+
+}
+
+
+.jorge2{
+  position: absolute;
+  border: 10px double white;
+  border-radius: 50%;
+  width: 33%;
+  top: 25%;
+  right: 56%;
+  transition: 1s ease;
+}
+
+.jorge2:hover{
+  box-shadow: 0 0 70px aquamarine;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.1);
+  transition: 1s ease;
+}
+
+.about h3{
+    font-size: 90px;
+    margin-bottom: 0;
+    color: aquamarine;
+    text-shadow: 2px 2px 8px #a5a8a6;
+    animation: glow 2s ease-in-out infinite 
+    alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 20px aquamarine;
+    }
+    to {
+      text-shadow: 0 0 30px rgb(127, 255, 195), 0 0 10px rgb(127, 255, 170);
+    }
+  }
+
+  .about p{
+    font-size: 30px;
+    font-weight: bolder;
+    width: 45%;
+    margin-left: 28%;
+    margin-top: 1%;
+    }
+
+  .about p:hover {
+    animation: bounce 1.5s infinite;
+  }
+    @keyframes bounce {
+      0% {
+        tranform: translate(0, 4px);
+      }
+      50% {
+        transform: translate(0, 8px);
+      }
+    } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------Services----------------------- */
+
+.blog{
+  margin-top: 5%;
+  margin-left:5%;
+}
+
+.blog h2{
+  margin-left: 8%;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(240, 89, 7, 0.82);
+  overflow: hidden;
+  width: 500px; /* Set width to match the image width */
+  height: 600px; /* Set height to match the image height */
+  transition: .5s ease;
+}
+
+.item {
+  position: relative;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.item:hover .overlay {
+  bottom: 0;
+  height: 600px;
+  width: 500px;
+}
+
+.top-overlay {
+  bottom: 100%;    
+  height: 0;
+}
+
+.item:hover .top-overlay {
+  bottom: 0;
+}
+
+.text {
+  color: white;
+  font-size: 1.2vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------Contact------------------------- */
+
+
+  #title-Tag-Line {
+    font-size: 20px;
+  }
+
+  .form {
+    background: #fff;
+    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+    border-radius: 5px;
+    max-width: 480px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    border-top: 5px solid aquamarine;
+    animation: bounce 1.5s infinite;
+  }
+  ::-webkit-input-placeholder {
+    font-size: 1.3em;
+  }
+
+  .form:hover{
+    box-shadow: 0 0 20px aquamarine;
+  }
+  
+  .title{
+    display: block;
+    font-family: sans-serif;
+    margin: 10px auto 5px;
+    width: 300px;
+  }
+  .termsConditions{
+    margin: 0 auto 5px 80px;
+  }
+  
+  .pageTitle{
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .secondaryTitle{
+    color: grey;
+  }
+  
+  .name {
+    background-color: #ebebeb;
+    color: rgb(0, 0, 0);
+  }
+  .name:hover {
+    border-bottom: 5px solid aquamarine;
+    height: 30px;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+  
+  .email {
+    background-color: #ebebeb;
+    height: 2em;
+  }
+  
+  .email:hover {
+    border-bottom: 5px solid aquamarine;
+    height: 30px;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+  
+  .message {
+    background-color: #ebebeb;
+    overflow: hidden;
+    height: 10rem;
+  }
+  
+  .message:hover {
+    border-bottom: 5px solid aquamarine;
+    height: 12em;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+  
+  .formEntry {
+    display: block;
+    margin: 30px auto;
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    transition: all 0.5s ease 0s;
+  }
+  
+  .submit {
+    width: 200px;
+    color: rgb(0, 0, 0);
+    background-color: aquamarine;
+    font-size: 20px;
+  }
+  
+  .submit:hover {
+    box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+    transform: translateY(-3px);
+    width: 300px;
+    border-top: 5px solid aquamarine;
+    border-radius: 0%;
+  }
+  
+  @keyframes bounce {
+    0% {
+      tranform: translate(0, 4px);
+    }
+    50% {
+      transform: translate(0, 8px);
+    }
+  } 
+  
+  
