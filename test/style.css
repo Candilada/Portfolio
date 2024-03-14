@@ -39,7 +39,6 @@ h1{
     margin-top: 0;
     margin-bottom: 0;
     animation: glow 2s ease-in-out infinite 
-    alternate;
   }
   @keyframes glow {
     from {
@@ -92,17 +91,6 @@ h1{
     margin-bottom: 2%;
     width: 45%;
 }
-.lefthome p:hover {
-  animation: bounce 1.5s infinite;
-}
-  @keyframes bounce {
-    0% {
-      tranform: translate(0, 4px);
-    }
-    50% {
-      transform: translate(0, 8px);
-    }
-  } 
 
 .lefthome h3{
     margin-top: 0;
@@ -180,7 +168,7 @@ h1{
     font-family: Arial;
     text-align: center;
     margin-left: 40%;
-    margin-top: 5%;
+    margin-top: 2%;
 
 }
 
@@ -229,100 +217,213 @@ h1{
     margin-top: 1%;
     }
 
-  .about p:hover {
-    animation: bounce 1.5s infinite;
-  }
-    @keyframes bounce {
-      0% {
-        tranform: translate(0, 4px);
-      }
-      50% {
-        transform: translate(0, 8px);
-      }
-    } 
 
+button {
+  margin-top: 2%;
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: aquamarine;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
 
+button:hover {
+  background-color: #23c483;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
 
-
-
-
-
-
-
-
+button:active {
+  transform: translateY(-1px);
+}
 
 
 
 
 /* --------------------Services----------------------- */
 
-.blog{
-  margin-top: 5%;
-  margin-left:5%;
-}
+section {
+  margin-top: 2%;
+  width: 100%;
+  display: grid;
+  place-items: center;
 
-.blog h2{
-  margin-left: 8%;
 }
-
-.overlay {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background-color: rgba(240, 89, 7, 0.82);
-  overflow: hidden;
-  width: 500px; /* Set width to match the image width */
-  height: 600px; /* Set height to match the image height */
-  transition: .5s ease;
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-
-.item {
-  position: relative;
-  overflow: hidden;
-  margin: 20px 0;
-}
-
-.item:hover .overlay {
-  bottom: 0;
-  height: 600px;
-  width: 500px;
-}
-
-.top-overlay {
-  bottom: 100%;    
-  height: 0;
-}
-
-.item:hover .top-overlay {
-  bottom: 0;
-}
-
-.text {
-  color: white;
-  font-size: 1.2vw;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.column {
+  width: 100%;
+  padding: 0 1em 1em 1em;
   text-align: center;
 }
 
+.row h2{
+  font-family: Arial;
+  font-size: 70px;
+  margin-bottom: 25px;
+}
 
 
+.row span{
+  color: aquamarine;
+  animation: glow 2s ease-in-out infinite 
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 20px aquamarine;
+  }
+  to {
+    text-shadow: 0 0 30px rgb(127, 255, 195), 0 0 10px rgb(127, 255, 170);
+  }
+}
 
 
+.card1, .card2, .card3{
+  width: 500px;
+  height: 600px;
+  padding: 2em 1.5em;
+  background: linear-gradient(#929292 50%, #ffffff 50%);
+  background-size: 100% 200%;
+  background-position: 0 2.5%;
+  border-radius: 5px;
+  box-shadow: 0 0 35px rgba(0, 255, 55, 0.12);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.customweb,
+.uiux,
+.responsive {
+  position: relative;
+  margin: auto;
+  height: 12em;
+  width: 12em;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card1:hover,
+.card2:hover,
+.card3:hover {
+  background-position: 0 100%;
+}
+
+.card1:hover h3 {
+  color: #000000;
+  animation: glow 2s ease-in-out infinite 
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 20px aquamarine;
+  }
+  to {
+    text-shadow: 0 0 30px rgb(127, 255, 195), 0 0 10px rgb(127, 255, 170);
+  }
+}
 
 
+.card2:hover h3 {
+  color: #000000;
+  animation: glow 2s ease-in-out infinite 
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 20px aquamarine;
+  }
+  to {
+    text-shadow: 0 0 30px rgb(127, 255, 195), 0 0 10px rgb(127, 255, 170);
+  }
+}
 
 
+.card3:hover h3 {
+  color: #000000;
+  animation: glow 2s ease-in-out infinite 
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 20px aquamarine;
+  }
+  to {
+    text-shadow: 0 0 30px rgb(127, 255, 195), 0 0 10px rgb(127, 255, 170);
+  }
+}
 
 
+.card1:hover,
+.card2:hover,
+.card3:hover p {
+  color: #000000;
+}
+@media screen and (min-width: 768px) {
+  section {
+    padding: 0 2em;
+  }
+  .column {
+    flex: 0 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (min-width: 992px) {
+  section {
+    padding: 1em 3em;
+  }
+  .column {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+}
 
+.services h3{
+  font-family: Arial;
+  font-size: 33px;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 1em 0;
+}
 
+.hide{
+  display: none;
+}
 
+.hide{
+  font-size: 20px;
+}
 
+.card1:hover .hide{
+  display: block;
+  color: black
+}
+
+.card2:hover .hide{
+  display: block;
+  color: black
+}
+
+.card3:hover .hide{
+  display: block;
+  color: black
+}
+
+.hide{
+  font-size: 25px;
+  font-family: Arial;
+  font-weight: lighter;
+}
 
 
 
@@ -345,7 +446,7 @@ h1{
 
   .form {
     background: #fff;
-    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+    box-shadow: 0 30px 60px 0 rgba(124, 238, 194, 0.4);
     border-radius: 5px;
     max-width: 480px;
     margin-top: 5%;
@@ -374,9 +475,6 @@ h1{
     margin: 10px auto 5px;
     width: 300px;
   }
-  .termsConditions{
-    margin: 0 auto 5px 80px;
-  }
   
   .pageTitle{
     font-size: 2em;
@@ -388,7 +486,7 @@ h1{
   
   .name {
     background-color: #ebebeb;
-    color: rgb(0, 0, 0);
+    color: rgb(41, 36, 36);
   }
   .name:hover {
     border-bottom: 5px solid aquamarine;
